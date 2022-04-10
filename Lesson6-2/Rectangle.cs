@@ -12,6 +12,7 @@ namespace Lesson6_2
         public int Leight {get; set; }
         public int Height { get; set; }
 
+
         public Rectangle(int x, int y, int leight, int height) : base(x,y)
         {
             var x1y1 = new Point(X, Y);
